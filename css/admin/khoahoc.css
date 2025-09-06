@@ -1,0 +1,53 @@
+:root {
+      --primary: #3b7ddd;
+      --secondary: #6c757d;
+      --success: #1cbb8c;
+      --light: #f8f9fa;
+      --dark: #343a40;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f5f6f8;
+      color: #495057;
+    }
+    .sidebar {
+      background-color: var(--dark);
+      color: white;
+      height: 100vh;
+      position: fixed;
+      padding-top: 20px;
+    }
+    .sidebar .nav-link {
+      color: rgba(255, 255, 255, 0.8);
+      padding: 12px 20px;
+      margin: 4px 0;
+      border-radius: 5px;
+    }
+    .sidebar .nav-link:hover, .sidebar .nav-link.active {
+      background-color: rgba(255, 255, 255, 0.1);
+      color: white;
+    }
+    .main-content {
+      margin-left: 250px;
+      padding: 20px;
+    }
+    .header {
+      background-color: white;
+      padding: 15px 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      margin-bottom: 20px;
+    }
+    .course-card {
+      background-color: white;
+      border-radius: 8px;
+      padding: 15px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      margin-bottom: 15px;
+      transition: transform 0.2s;
+    }
+    .course-card:hover { transform: translateY(-5px); }
+    .language-badge { position: absolute; top: 15px; right: 15px; }
+    .btn-action { padding: 5px 10px; margin-left: 5px; font-size: 14px; }
+    .language-filter { margin-bottom: 20px; }
+    .language-btn { margin-right: 10px; margin-bottom: 10px; }

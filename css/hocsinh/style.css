@@ -1,0 +1,41 @@
+.progress-bar-container { 
+    background:#e5e7eb; 
+    height:8px; 
+    border-radius:4px; 
+}
+.progress-bar { 
+    background:#6366f1; 
+    height:8px; 
+    border-radius:4px; 
+}
+.dropdown { 
+    position:relative; 
+    display:inline-block; 
+}
+.dropdown-content { 
+    display:none; 
+    position:absolute; 
+    right:0; 
+    background:#fff; 
+    min-width:250px; 
+    box-shadow:0 4px 6px rgba(0,0,0,0.1); 
+    z-index:1000; 
+    border-radius:6px; 
+    overflow:hidden; 
+}
+.dropdown-content.show { 
+    display:block; 
+}
+.notif-item { 
+    padding:0.75rem 1rem; 
+    border-bottom:1px solid #f0f0f0; 
+    display:flex; 
+    justify-content:space-between; 
+}
+.notif-item.unread { 
+    background:#f0f5ff; 
+}
+.notif-item:last-child { 
+    border-bottom:none; 
+}
+        
